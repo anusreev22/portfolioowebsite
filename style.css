@@ -16,7 +16,7 @@ body{
   height: 150vh;
   background-image: url(IMAGES/ANUNE.jpg);
   background-size:cover;
-  background-position:left;
+  background-position:center;
 }
 .container{
   padding: 10px 10%;
