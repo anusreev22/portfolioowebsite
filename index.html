@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset ="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content ="IE=edge">
+    <title>Personal Portfoli Website</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/35e9afc0ed.js" crossorigin="anonymous"></script>
+  </head>
+  <body>
+  <div id="header">
+    <div class="container">
+      <nav>
+       <img src ="IMAGES/ANUSREE LO.png" class="logo" >
+       <ul id="sidemenu">
+        <li><a href="#header">Home </a></li>
+        <li><a href="#about">About </a></li>
+        <li><a href="#portfolio">Projects</a></li>
+        <li><a href="#projects2">Skills </a></li>
+        <li><a href="#contact">Contact </a></li>
+        <i class="fa-solid fa-xmark" onclick="closemenu()" style="color: #ffffff;"></i>
+       </ul>
+       <i class="fa-solid fa-bars"onclick="openmenu()" style="color: #ffffff;"></i>
+      </nav>
+      <div class="header-text">
+        <p>Computer Science Engineering Student</p>
+        <h1>Hi, I'm <span>ANUSREE</span><br>from GECI </h1>
+      </div>
+    </div>
+  </div>
+  <!------------about------->
+  <div id ="about">
+    <div class="container">
+      <div class="row">
+        <div class="about-col-1">
+          <img src="IMAGES/anuco.JPG">
+        </div>
+        <div class="about-col-2">
+          <h1 class="sub-title">About Me</h1>
+          <P>I'am Anusree V from CS department of Government Engineering College Idukki.Curious in exploring various programming languages.Skilled in UI/UX designing.Familiour with C Programming,Python,HTML,CSS,JavaScript,MYSQL.
+
+          </P>
+          <div class="tab-title">
+            <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+            <p class="tab-links"onclick="opentab('projects')">Projects</p>
+            <p class="tab-links"onclick="opentab('education')">Eductional details</p>
+          </div>
+          <div class="tab-contents active-tabs" id="skills">
+            <ul>
+              <li><span>UI/UX</span><br>Designing Web app interfaces</li>
+              <li><span>Front End Development</span><br>Front-End for website</li>
+              <li><span>Creative Thinking</span><br>For formulating ideas in projects</li>
+              <li><span>Team player</span><br>Development of group projects</li>
+              <li><span>Public Speaking</span><br>Presentation</li>
+            </ul>
+          </div>
+          <div class="tab-contents" id="projects">
+            <ul>
+              <li><span>Mental Health Care APP</span><br>Got second position in pi-Hack -24 hrs hackaton conducted by GECI</li>
+              <li><span>College Management System</span><br>DBMS project as a part of DBMS lab</li>
+              <li><span>PEDOX-Pedestrain dectection tool</span><br>Mini project on Image processing</li>
+              
+            </ul>
+          </div>
+          <div class="tab-contents"id="education">
+            <ul>
+              <li><span>Computer Science Engineering </span><br>Government Engineering College Idukki<br>(2020-2024)</li>
+              <li><span>Higher Secondary Education</span><br>Mambaram Higher Secondary School<br>(2018-2020)</li>
+              
+            </ul>
+          </div>
+        </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!---------projects---------->
+  <div id ="projects2">
+    <div class="container">
+      <h1 class="sub-title">My Skills</h1>
+      <div class="project-list">
+        <div>
+          <i class="fa-solid fa-mobile-screen" style="color: #ffffff;"></i>
+          <h2>UI/UX Designer</h2>
+          <p> Designed a project on adobe XD named KFF,a fish restuarent's mobile app and website</p>
+          <a href="#">Learn more</a>
+        </div>
+        <div>
+          <i class="fa-solid fa-code" style="color: #fcfcfd;"></i>
+          <h2>Front-End Developer</h2>
+          <p>Developed a personal protfolio website using HTML,CSS,JS</p>
+          <a href="#">Learn more</a>
+        </div>
+        <div>
+          <i class="fa-solid fa-microphone" style="color: #f4f5f6;"></i>
+          <h2>Public speaking skills</h2>
+          <p>Handled project presentation and various activities</p>
+          <a href="#">Learn more</a>
+          </div>
+      </div>
+    </div>
+  </div>
+<!--------------------skills-->
+<div id="porfolio">
+  <div class="container">
+    <h1 class="sub-title">My Projects</h1>
+    <div class="skills-list">
+      <div class="skill">
+        <img src="IMAGES/resize-1684905394579139117android.jpg">
+        <div class="layer">
+          <h3>Mental Health Care APP</h3>
+          <p>Got Second Position 24 Hrs Hackaton pi hack conducted by GECI.An andriod app which was made for mentally depressed people.</p>
+        </div>
+      </div>
+      <div class="skill">
+        <img src="IMAGES/resize-16849054111399719867imageprocessing2.jpg">
+        <div class="layer">
+          <h3>PEDOX</h3>
+          <p>A pedestrain dectection tool using image processing .Identifying the pedestrians who are crossing the road and there by changing the traffic light accordingly.Developed as a part of mini-project.</p>
+        </div>
+      </div>
+      <div class="skill">
+        <img src="IMAGES/resize-16849056091688072438collegeerpResearchAnalyticalTechinques.jpg">
+        <div class="layer">
+          <h3>College Management System</h3>
+          <p>A DBMS project that is made as a part of DBMS lab project.A system usefull of college students as well as faculties.</p>
+        </div>
+      </div>
+      
+
+    ge
+
+  </div>
+  <div><a href="#" class="btn">See more</a></div>
+</div>
+<!-----------contact-->
+<div id="contact">
+  <div class="container">
+    <div class="row">
+      <div class="contact-left">
+        <h1 class="sub-title">Contact Me</h1>
+        <p><i class="fa-solid fa-paper-plane" style="color: #eff0f0;"></i>anusreev22@gmail.com</p>
+        <p><i class="fa-solid fa-phone-volume" style="color: #ffffff;"></i>9778204873</p>
+        <div class="social-icons">
+          <a href="https://www.instagram.com/"><i class="fa-brands fa-instagram" style="color: #f910e6;"></i></a>
+          <a href="https://www.linkedin.com/feed/"><i class="fa-brands fa-linkedin" style="color: #019af9;"></i></a>
+          <a href="https://github.com/"><i class="fa-brands fa-github"></i></a>
+        </div>
+        <a href="IMAGES/anusreevresume.pdf.pdf"class="btn btn2">Download resume</a>
+      </div>
+      <div class="contact-right">
+        <form name="submit-to-google-sheet">
+          <input type="text" name="Name"  placeholder ="your Name"  required>
+          <input type="email" name="Email" placeholder ="your Email"  required>
+          <textarea type="message" rows="6"  placeholder ="your Message"></textarea>
+          <button type="submit" class="btn btn2">Submit</button>
+        </form>
+        <span id ="msg"></span>
+      </div>
+    </div>
+  </div>
+  
+</div>
+  <script>
+    var tablinks=document.getElementsByClassName("tab-links");
+    var tabcontents=document.getElementsByClassName("tab-contents");
+    function opentab(tabname){
+      for(tablink of tablinks){
+        tablink.classList.remove("active-link");
+      }
+      for(tabcontent of tabcontents){
+        tabcontent.classList.remove("active-tabs")
+      }
+      event.currentTarget.classList.add("active-link");
+      document.getElementById(tabname).classList.add("active-tabs");
+    }
+  </script>
+  <script> var sidemenu = document.getElementById("sidemenu");
+    function openmenu(){
+      sidemenu.style.right= "0";
+    }
+    function closemenu(){
+      sidemenu.style.right="-200px";
+    }
+  </script>
+  <script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbwQdQjktLTpAHs-dLOpZckCfjsb9B_uOZa8Yi5q_BgjkSo0fqFqmxm_kQnUghltcCBC/exec'
+    const form = document.forms['submit-to-google-sheet']
+    const msg=document.getElementById("msg")
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {
+        msg.innerHTML="Message sent successfully!!!"
+        setTimeout(function(){
+          msg.innerHTML=""
+        },5000)
+        form.reset()
+      })
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+  </body>
+</html>
